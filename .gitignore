@@ -1,0 +1,48 @@
+# ── Data files ────────────────────────────────────────────────────
+Data/
+*.csv
+*.zip
+*.rar
+
+# ── Geospatial ────────────────────────────────────────────────────
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qmd
+*.gpkg
+*.geojson
+
+# ── Notebook checkpoints ──────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+env/
+venv/
+
+# ── macOS ─────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Jupyter ───────────────────────────────────────────────────────
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ── Output images (optional — remove this if you want charts tracked) ──
+# output/
+
+# ── Large / sensitive files ───────────────────────────────────────
+*.log
+*.pkl
+*.h5
+*.parquet
+low_confidence_mappings.csv
